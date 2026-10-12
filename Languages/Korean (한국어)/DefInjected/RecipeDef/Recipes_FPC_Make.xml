@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeMechFPCSeeker.label>시커 배양</MakeMechFPCSeeker.label>
+  <MakeMechFPCSeeker.description>시커를 배양합니다.</MakeMechFPCSeeker.description>
+  <MakeMechFPCSeeker.jobString>시커 배양 중.</MakeMechFPCSeeker.jobString>
+
+  <MakeMechFPCPeacekeeper.label>피스키퍼 배양</MakeMechFPCPeacekeeper.label>
+  <MakeMechFPCPeacekeeper.description>피스키퍼를 배양합니다.</MakeMechFPCPeacekeeper.description>
+  <MakeMechFPCPeacekeeper.jobString>피스키퍼 배양 중.</MakeMechFPCPeacekeeper.jobString>
+
+  <MakeMechFPCPeacemaker.label>피스메이커 배양</MakeMechFPCPeacemaker.label>
+  <MakeMechFPCPeacemaker.description>피스메이커를 배양합니다.</MakeMechFPCPeacemaker.description>
+  <MakeMechFPCPeacemaker.jobString>피스메이커 배양 중.</MakeMechFPCPeacemaker.jobString>
+
+  <MakeMechFPCPeacebringer.label>피스브링어 배양</MakeMechFPCPeacebringer.label>
+  <MakeMechFPCPeacebringer.description>피스브링어를 배양합니다.</MakeMechFPCPeacebringer.description>
+  <MakeMechFPCPeacebringer.jobString>피스브링어 배양 중.</MakeMechFPCPeacebringer.jobString>
+
+  <MakeMechFPCPeacemonger.label>피스몽거 배양</MakeMechFPCPeacemonger.label>
+  <MakeMechFPCPeacemonger.description>피스몽거를 배양합니다.</MakeMechFPCPeacemonger.description>
+  <MakeMechFPCPeacemonger.jobString>피스몽거 배양 중.</MakeMechFPCPeacemonger.jobString>
+
+  <MakeMechFPCFederator.label>페더레이터 배양</MakeMechFPCFederator.label>
+  <MakeMechFPCFederator.description>페더레이터를 배양합니다.</MakeMechFPCFederator.description>
+  <MakeMechFPCFederator.jobString>페더레이터 배양 중.</MakeMechFPCFederator.jobString>
+
+</LanguageData>

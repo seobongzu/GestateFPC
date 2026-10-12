@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <PawnKindDef Name="NonCombatFPCMechanoidKind" ParentName="BaseMechanoidKind" Abstract="True">
+		<isFighter>false</isFighter>
+    </PawnKindDef>
+	
+	<!-- Seeker -->  
+
+	<PawnKindDef ParentName="NonCombatFPCMechanoidKind">
+		<defName>Mech_FPCSeeker</defName>
+		<label>seeker</label>
+		<race>Mech_FPCSeeker</race>
+		<combatPower>55</combatPower>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Pawn/Seeker</texPath>
+					<maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Seeker</maskPath>
+					<shaderType>CutoutWithOverlay</shaderType>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.2, 0.4, 0.2)</volume>
+					</shadowData>			
+				</bodyGraphicData>
+			</li>		
+		</lifeStages>
+	</PawnKindDef>
+	
+	<!-- Peacekeeper -->  
+
+	<PawnKindDef ParentName="NonCombatFPCMechanoidKind">
+		<defName>Mech_FPCPeacekeeper</defName>
+		<label>peacekeeper</label>
+		<race>Mech_FPCPeacekeeper</race>
+		<combatPower>180</combatPower>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Pawn/Peacekeeper</texPath>
+					<maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Peacekeeper</maskPath>
+					<shaderType>CutoutWithOverlay</shaderType>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.8, 0.4)</volume>
+					</shadowData>			
+				</bodyGraphicData>
+			</li>		
+		</lifeStages>
+		<weaponMoney>9999~9999</weaponMoney>
+		<weaponTags>
+			<li>FedRifle</li>
+		</weaponTags>
+		<techHediffsChance>1</techHediffsChance>
+		<techHediffsMoney>9999~9999</techHediffsMoney>	  
+	</PawnKindDef>
+	
+	<!-- Peacemaker -->  
+	
+	<PawnKindDef ParentName="NonCombatFPCMechanoidKind">
+		<defName>Mech_FPCPeacemaker</defName>
+		<label>peacemaker</label>
+		<race>Mech_FPCPeacemaker</race>
+		<combatPower>180</combatPower>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Pawn/Peacemaker</texPath>
+					<maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Peacemaker</maskPath>
+					<shaderType>CutoutWithOverlay</shaderType>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.8, 0.4)</volume>
+					</shadowData>			
+				</bodyGraphicData>
+			</li>		
+		</lifeStages>
+		<weaponMoney>9999~9999</weaponMoney>
+		<weaponTags>
+			<li>FedMelee</li>
+		</weaponTags>
+		<techHediffsChance>1</techHediffsChance>
+		<techHediffsMoney>9999~9999</techHediffsMoney>	  
+	</PawnKindDef>
+
+	<!-- Peacebringer -->  
+    
+	<PawnKindDef ParentName="NonCombatFPCMechanoidKind">
+		<defName>Mech_FPCPeacebringer</defName>
+		<label>peacebringer</label>
+		<race>Mech_FPCPeacebringer</race>
+		<combatPower>250</combatPower>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Pawn/Peacebringer</texPath>
+					<maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Peacebringer</maskPath>
+					<shaderType>CutoutWithOverlay</shaderType>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.4</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.8, 0.4)</volume>
+					</shadowData>			
+				</bodyGraphicData>
+			</li>		
+		</lifeStages>
+		<weaponMoney>9999~9999</weaponMoney>
+		<weaponTags>
+			<li>FedSniper</li>
+		</weaponTags>
+		<techHediffsChance>1</techHediffsChance>
+		<techHediffsMoney>9999~9999</techHediffsMoney>	  
+	</PawnKindDef>
+	
+	<!-- Peacemonger -->  
+    
+	<PawnKindDef ParentName="NonCombatFPCMechanoidKind">
+		<defName>Mech_FPCPeacemonger</defName>
+		<label>peacemonger</label>
+		<race>Mech_FPCPeacemonger</race>
+		<combatPower>300</combatPower>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Pawn/Peacemonger</texPath>
+					<maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Peacemonger</maskPath>
+					<shaderType>CutoutWithOverlay</shaderType>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.8, 0.4)</volume>
+					</shadowData>			
+				</bodyGraphicData>
+			</li>		
+		</lifeStages>
+		<weaponMoney>9999~9999</weaponMoney>
+		<weaponTags>
+			<li>FedHeavy</li>
+			<li>FedDemolition</li>			
+		</weaponTags>
+		<techHediffsChance>1</techHediffsChance>
+		<techHediffsMoney>9999~9999</techHediffsMoney>	  
+	</PawnKindDef>
+
+
+	<!-- Federator -->  
+    
+	<PawnKindDef ParentName="NonCombatFPCMechanoidKind">
+		<defName>Mech_FPCFederator</defName>
+		<label>federator</label>
+		<race>Mech_FPCFederator</race>
+		<combatPower>1000</combatPower>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Pawn/Federator</texPath>
+					<maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Federator</maskPath>
+					<shaderType>CutoutWithOverlay</shaderType>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(1.2, 2.6, 1.2)</volume>
+					</shadowData>			
+				</bodyGraphicData>
+			</li>		
+		</lifeStages>
+		<weaponMoney>9999~9999</weaponMoney>
+		<weaponTags>
+			<li>Federator</li>
+		</weaponTags>
+		<techHediffsChance>1</techHediffsChance>
+		<techHediffsMoney>9999~9999</techHediffsMoney>	  
+	</PawnKindDef>
+	
+</Defs>

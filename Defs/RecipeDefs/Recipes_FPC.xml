@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef ParentName="MediumMechanoidRecipe">
+    <defName>MakeMechFPCSeeker</defName>
+    <label>gestate Seeker</label>
+    <description>Gestate a seeker.</description>
+	<researchPrerequisite>BasicMechtech</researchPrerequisite>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Foerum</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreBasic</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Mech_FPCSeeker>1</Mech_FPCSeeker>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_FPCSeeker</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+  
+  
+  <RecipeDef ParentName="MediumMechanoidRecipe">
+    <defName>MakeMechFPCPeacekeeper</defName>
+    <label>gestate Peacekeeper</label>
+    <description>Gestate a peacekeeper.</description>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Foerum</li>
+          </thingDefs>
+        </filter>
+        <count>125</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CrucibleCore</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreRegular</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Mech_FPCPeacekeeper>1</Mech_FPCPeacekeeper>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_FPCPeacekeeper</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+  
+  
+  <RecipeDef ParentName="MediumMechanoidRecipe">
+    <defName>MakeMechFPCPeacemaker</defName>
+    <label>gestate Peacemaker</label>
+    <description>Gestate a peacemaker.</description>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Foerum</li>
+          </thingDefs>
+        </filter>
+        <count>125</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CrucibleCore</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreRegular</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Mech_FPCPeacemaker>1</Mech_FPCPeacemaker>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_FPCPeacemaker</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+  
+  
+  <RecipeDef ParentName="MediumMechanoidRecipe">
+    <defName>MakeMechFPCPeacebringer</defName>
+    <label>gestate Peacebringer</label>
+    <description>Gestate a peacebringer.</description>
+	<researchPrerequisite>HighMechtech</researchPrerequisite>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Foerum</li>
+          </thingDefs>
+        </filter>
+        <count>125</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CrucibleCore</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreRegular</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Mech_FPCPeacebringer>1</Mech_FPCPeacebringer>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_FPCPeacebringer</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+  
+  
+  <RecipeDef ParentName="HeavyMechanoidRecipe">
+    <defName>MakeMechFPCPeacemonger</defName>
+    <label>gestate Peacemonger</label>
+    <description>Gestate a peacemonger.</description>
+	<researchPrerequisite>HighMechtech</researchPrerequisite>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Foerum</li>
+          </thingDefs>
+        </filter>
+        <count>255</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>125</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CrucibleCore</li>
+          </thingDefs>
+        </filter>
+        <count>12</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreRegular</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Mech_FPCPeacemonger>1</Mech_FPCPeacemonger>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_FPCPeacemonger</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+  
+  
+  <RecipeDef ParentName="HeavyMechanoidRecipe">
+	<gestationCycles>6</gestationCycles>
+    <defName>MakeMechFPCFederator</defName>
+    <label>gestate Federator</label>
+    <description>Gestate a federator.</description>
+	<researchPrerequisite>UltraMechtech</researchPrerequisite>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Foerum</li>
+          </thingDefs>
+        </filter>
+        <count>355</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>355</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CrucibleCore</li>
+          </thingDefs>
+        </filter>
+        <count>16</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreHigh</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Mech_FPCFederator>1</Mech_FPCFederator>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_FPCFederator</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+  <RecipeDef ParentName="BaseMechanoidResurrectionRecipe">
+    <defName>ResurrectFPCMech</defName>
+    <label>resurrect FPC</label>
+    <description>Resurrect a friendly mechanoid of the FPC class. So long as the mechanoid's body is not completely destroyed, it can be resurrected.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Foerum</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Corpse_Mech_FPCSeeker</li>
+        <li>Corpse_Mech_FPCPeacekeeper</li>
+        <li>Corpse_Mech_FPCPeacemaker</li>
+        <li>Corpse_Mech_FPCPeacebringer</li>
+        <li>Corpse_Mech_FPCPeacemonger</li>
+        <li>Corpse_Mech_FPCFederator</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  
+</Defs>

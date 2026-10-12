@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Mech_FPCPeacekeeper.label>피스키퍼</Mech_FPCPeacekeeper.label>
+  <Mech_FPCPeacemaker.label>피스메이커</Mech_FPCPeacemaker.label>
+  <Mech_FPCPeacebringer.label>피스브링어</Mech_FPCPeacebringer.label>
+  <Mech_FPCPeacemonger.label>피스몽거</Mech_FPCPeacemonger.label>
+  <Mech_FPCFederator.label>페더레이터</Mech_FPCFederator.label>
+  <Mech_FPCSeeker.label>시커</Mech_FPCSeeker.label>
+
+</LanguageData>
